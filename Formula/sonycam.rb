@@ -1,8 +1,8 @@
 class Sonycam < Formula
   desc "Agent-friendly CLI and daemon for Sony cameras (Camera Remote SDK)"
   homepage "https://github.com/talayolabs/sonycam"
-  url "https://github.com/talayolabs/sonycam/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "ab7069072617cfa93833dc082bb8a0c6ae13d6bf21bbd24617ce89a0ef4ca316"
+  url "https://github.com/talayolabs/sonycam/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "4e048a7b50bf6aefa40bdf175aeff337602d4907e9c8b9d574b775cec6ea21a7"
   head "https://github.com/talayolabs/sonycam.git", branch: "main"
 
   depends_on "cmake" => :build
