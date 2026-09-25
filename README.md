@@ -1,11 +1,24 @@
 # talayolabs Homebrew tap
 
 ```
+brew install talayolabs/tap/sessionboxer
 brew install talayolabs/tap/sonycam
 ```
 
 Formulae live in `Formula/`. Homebrew resolves `talayolabs/tap` to this repo
 (`homebrew-tap`) automatically — no registry or account involved.
+
+## sessionboxer
+
+Coding agents (Claude Code, Codex, Cursor, Devin) in Docker boxes, driven
+from a browser: https://sessionboxer.talayolabs.com
+
+Installs the npm tarball of the GitHub Release with Homebrew's `node`; a
+Docker engine has to be installed separately. Then `sessionboxer serve`.
+
+New Sessionboxer version: change `url` and `sha256` in
+`Formula/sessionboxer.rb` to the new release's `sessionboxer-<version>.tgz`
+(`shasum -a 256` of the downloaded file).
 
 ## sonycam
 
