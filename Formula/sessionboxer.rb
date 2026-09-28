@@ -1,8 +1,8 @@
 class Sessionboxer < Formula
   desc "Coding agents (Claude Code, Codex, Cursor, Devin) in Docker boxes"
   homepage "https://sessionboxer.talayolabs.com"
-  url "https://github.com/talayolabs/sessionboxer/releases/download/v1.3.0/sessionboxer-1.3.0.tgz"
-  sha256 "c5096a3e615730db0d2b480ab6cedd07d493fcdcc6fd4c0e7dfefd3a6ed6ab26"
+  url "https://github.com/talayolabs/sessionboxer/releases/download/v1.4.0/sessionboxer-1.4.0.tgz"
+  sha256 "06edce01d2e1c43fd17d02fbbfe899b3546a54f63eda17f0992158a28c70736c"
   license "MIT"
 
   depends_on "node"
