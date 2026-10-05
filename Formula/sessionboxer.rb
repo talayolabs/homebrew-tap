@@ -1,8 +1,8 @@
 class Sessionboxer < Formula
-  desc "Coding agents (Claude Code, Codex, Cursor, OpenCode, Devin, pi, fx) in boxes"
+  desc "Coding agents (Claude Code, Codex, Cursor, Gemini, Copilot and 8 more) in boxes"
   homepage "https://sessionboxer.talayolabs.com"
-  url "https://github.com/talayolabs/sessionboxer/releases/download/v1.5.0/sessionboxer-1.5.0.tgz"
-  sha256 "06089a92d23d83ca71eb9fe3c489b5d08076545dca9f5a8e3f4ebe0eeaa99e64"
+  url "https://github.com/talayolabs/sessionboxer/releases/download/v1.6.0/sessionboxer-1.6.0.tgz"
+  sha256 "5389ba775c9fcf4a6a37c8999421c129eec5840095ebae59e18482db0dd02754"
   license "MIT"
 
   depends_on "node"
